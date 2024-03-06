@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
+
+.garden, .arcade, .sky {
+    width: 100px;
+    border-radius:50%;
+    height: 100px;
+}
+.hero{
+    background-image: url("images/melbourne.jpg");
+    display: flex;
+    height: 400px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    background-color: #001524;
+    color:antiquewhite;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    font-size:30px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    color:#EDF5FC;
+    background-color:#A39BA8;
+    font-size: 20px;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main{
+    display: block;
+    padding:10px;
+    background-color: #FFD400;
+    
+}
+h3{
+    text-align: center;
+    color: #1D3557;
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.place{
+    display: block;
+    width:100px;
+}
+p{
+    text-align: center;
+}
+.guide{
+    display: block;
+    padding:20px;
+    
+}
+.card{
+    width:400px;
+    background-color: #D9F7FA;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    
+    
+
+}
+.cornifer{
+  width:200px;
+  height:200px;
+  border-radius:10px;
+  padding: 30px;
+  justify-content: center;
+
+  
+}
+.info{
+    padding: 20px;
+}
